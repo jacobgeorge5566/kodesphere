@@ -1,7 +1,6 @@
 "use client";
-import Image from "next/image";
-import { useState } from "react";
 import Fan from "../componets/fan/Fan";
+import Bulb from "../componets/bulb/Bulb";
 export default function Home() {
   return (
     <div>
@@ -10,7 +9,7 @@ export default function Home() {
         <Fan></Fan>
         </div>
         <div className="bg-gray-400 rounded-md h-[400px] p-2 text-white">bulb
-
+        <Bulb></Bulb>
         </div>
         <div className="bg-gray-400 rounded-md h-[400px] p-2 text-white">led
 
